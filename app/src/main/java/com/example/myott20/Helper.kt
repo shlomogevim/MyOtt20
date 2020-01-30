@@ -131,6 +131,37 @@ class Helper(val context: Context) {
 
         else -> R.drawable.l3_101_allef
     }
+    fun getAnimation21(st: String) = when (st) {
+        "א" -> R.drawable.l21_101_allef
+        "ב" -> R.drawable.l21_102_bet;
+        "ג" -> R.drawable.l21_103_gimel
+        "ד" -> R.drawable.l21_104_daled
+        "ה" -> R.drawable.l21_105_haii
+        "ו" -> R.drawable.l21_106_vav
+        "ז" -> R.drawable.l21_107_zain
+        "ח" -> R.drawable.l21_108_kait
+        "ט" -> R.drawable.l21_109_tet
+        "י" -> R.drawable.l21_110_yod
+        "כ" -> R.drawable.l21_111_kaaf
+        "ל" -> R.drawable.l21_112_lamed
+        "מ" -> R.drawable.l21_113_mem
+        "נ" -> R.drawable.l21_114_non
+        "ס" -> R.drawable.l21_115_shamech
+        "ע" -> R.drawable.l21_116_aahin
+        "פ" -> R.drawable.l21_117_phaii
+        "צ" -> R.drawable.l21_118_zadik
+        "ק" -> R.drawable.l21_119_koof;
+        "ר" -> R.drawable.l21_120_reash
+        "ש" -> R.drawable.l21_121_sheen
+        "ת" -> R.drawable.l21_122_taf
+        "ם" -> R.drawable.l21_123_mem_shofit
+        "ן" -> R.drawable.l21_124_non_shofit
+        "ץ" -> R.drawable.l21_125_zhadik_shofit
+        "ף" -> R.drawable.l21_126_pai_shofit
+        "ך" -> R.drawable.l21_127_chaff_sofit
+
+        else -> R.drawable.l21_101_allef
+    }
 }
 
 

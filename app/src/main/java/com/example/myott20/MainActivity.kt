@@ -259,7 +259,7 @@ class MainActivity : AppCompatActivity() {
         val imageView = ImageView(this)
         val address = Helper(this).getAnimation1(letter)
         if (animationMode) {
-            val address = Helper(this).getAnimation2(letter)
+            val address = Helper(this).getAnimation21(letter)
             imageView.setImageResource(address)
         } else {
             val address = Helper(this).getAnimation1(letter)
