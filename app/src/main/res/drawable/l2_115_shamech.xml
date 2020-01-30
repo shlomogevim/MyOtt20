@@ -1,0 +1,35 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="240dp"
+            android:height="240dp"
+            android:viewportWidth="240"
+            android:viewportHeight="240">
+            <path
+                android:name="path_2"
+                android:pathData="M 169.7 74.8 C 147.8 51.3 114.8 46.6 85.8 59.4 C 55.4 72.7 36 105 43.6 138 C 43.6 138.1 42.8 140.1 42.9 141 C 44.3 172.5 73.3 190.7 102.2 193.1 C 132.3 195.7 169.7 185.4 186.9 158.8 C 205 130.9 190.1 96.7 169.7 74.8 Z M 170.1 150.5 C 167.4 160.5 160.1 168.8 152.1 172.6 C 143.4 176.8 132.3 178.6 121.7 178.6 C 96 178.4 67.4 162.6 66.2 134.2 C 66.2 133.4 66.6 134.8 66.2 134.2 C 67 132.8 65.9 133.6 65.6 132.2 C 61.1 112.6 68.9 83.8 86.3 72.7 C 93.4 68.2 103.6 66.3 113.6 67.6 C 125.1 69.1 135.2 74.6 143.7 82.3 C 161.9 98.7 176.9 125.4 170.1 150.5 Z"
+                android:fillColor="#fff"
+                android:strokeWidth="1"/>
+            <path
+                android:name="path_3"
+                android:pathData="M 75.9 75.7 C 81.2 70.8 87.4 66.8 94.1 64.2 C 111 57.6 129.9 59.5 147.9 61.4 C 146.8 61.4 144.6 64.5 143.5 64.5 C 156.9 71.7 165.3 83.5 171.7 97.3 C 176.3 107.2 180.9 117.2 182.6 127.9 C 184.3 138.6 182.9 150.4 176.3 159 C 167.9 169.9 153.4 173.7 140 176.8 C 121.7 181 101.2 184.9 85.3 175 C 76 169.3 63.6 163.2 59.9 152.9 C 51.1 128.5 55.6 94.8 75.9 75.7 Z"
+                android:strokeColor="#000"
+                android:strokeWidth="30"
+                android:strokeMiterLimit="10"/>
+        </vector>
+    </aapt:attr>
+    <target android:name="path_3">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="trimPathStart"
+                android:duration="500"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+</animated-vector>

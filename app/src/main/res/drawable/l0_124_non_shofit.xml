@@ -1,0 +1,20 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="240dp"
+            android:height="240dp"
+            android:viewportWidth="240"
+            android:viewportHeight="240">
+            <path
+                android:name="path"
+                android:pathData="M 101 30 C 92 90 104 152 96 213 C 95 221 112 245 113 234 C 121 173 109 112 118 51 C 119 42 103 19 101 30 Z"
+                android:fillColor="#fff"
+                android:strokeWidth="1"/>
+
+        </vector>
+    </aapt:attr>
+
+</animated-vector>
