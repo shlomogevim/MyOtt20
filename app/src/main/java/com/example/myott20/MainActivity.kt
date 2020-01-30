@@ -246,11 +246,6 @@ class MainActivity : AppCompatActivity() {
             Ott(mV("מ"), 50,  scale2,scale2, 330+int3,  buttom4-3),
             Ott(mV("י"), 51,  scale2,scale2, 350+int3,  buttom4),
             Ott(mV("ם"), 52,  scale2,scale2, 373+int3,  buttom4)
-
-
-
-
-
         )
 
     }
